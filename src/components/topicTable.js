@@ -1,6 +1,21 @@
 import React from 'react';
 
-function TopicTable() {
+function TopicTable(props) {
+  if (props.data) {
+    var tableContent = props.data.map(function (data) {
+      return (
+        <tr class="hmm">
+          <th scope="row">{data.title}</th>
+          <td>{data.description}</td>
+          <td>{data.date}</td>
+          <td>
+            <button class="btn btn-outline-secondary">claim</button>
+          </td>
+        </tr>
+      );
+    });
+  }
+
   return (
     <div class="topics-table-container">
       <table class="table">
@@ -12,32 +27,7 @@ function TopicTable() {
             <th scope="col">Claim</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Hacking 101</th>
-            <td>A brief guide to hacking and how it works...</td>
-            <td>28/9/21</td>
-            <td>
-              <button class="btn btn-outline-secondary">claim</button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>
-              <button class="btn btn-outline-secondary">claim</button>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>
-              <button class="btn btn-outline-secondary">claim</button>
-            </td>
-          </tr>
-        </tbody>
+        <tbody>{tableContent}</tbody>
       </table>
     </div>
   );
