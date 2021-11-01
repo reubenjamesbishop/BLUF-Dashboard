@@ -71,8 +71,6 @@ function Topics() {
     },
   ];
 
-  var someVar = 'hello';
-
   return (
     <>
       <div class="container">
@@ -81,14 +79,16 @@ function Topics() {
             <div>
               <h1 class="column-title">Current Topics</h1>
             </div>
-            <TopicTable data={data} />
+            <div class="topic-content">
+              <TopicTable data={data} />
+            </div>
           </div>
           <div class="col-4 submit-topic">
             <div>
               <h1 class="column-title">Submit New Topic</h1>
             </div>
             <div class="form-container">
-              <form>
+              <form class="form">
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Topic Title</label>
                   <input
@@ -130,10 +130,10 @@ function Topics() {
                     <option>Other</option>
                   </select>
                 </div>
+                <div class="submit-wrapper">
+                  <button class="btn btn-success submit-btn">Submit</button>
+                </div>
               </form>
-              <div class="submit-wrapper">
-                <button class="btn btn-success submit-btn">Submit</button>
-              </div>
             </div>
           </div>
         </div>
