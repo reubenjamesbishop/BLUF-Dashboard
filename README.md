@@ -1,3 +1,4 @@
-# react-54hjtr
+# BLUF Dashboard
+Simple web-app to facilitate Bottom Line Up Front (BLUF) presentation organisation.
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-54hjtr)
+Check it out [here](https://react-54hjtr.stackblitz.io/)
