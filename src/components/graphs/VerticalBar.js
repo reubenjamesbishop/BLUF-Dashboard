@@ -43,7 +43,7 @@ const options = {
 const VerticalBar = () => (
   <>
     <div className="header">
-      <h1 className="title">Vertical Bar Chart</h1>
+      <h4 className="title">Upcoming Presentationst</h4>
       <div className="links">
         <a
           className="btn btn-gh"

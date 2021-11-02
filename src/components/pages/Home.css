@@ -1,0 +1,26 @@
+.container {
+  /* border: 1px solid blue; */
+  width: 100vw;
+}
+.graph-wrapper {
+  /* border: 1px solid red; */
+  margin: 80px;
+}
+
+.analytics-title {
+  text-align: center;
+  border-bottom: 5px solid lightblue;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+.analytics-title-secondary {
+  text-align: center;
+  border-bottom: 5px solid lightblue;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}

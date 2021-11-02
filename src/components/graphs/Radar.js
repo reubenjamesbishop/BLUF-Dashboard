@@ -23,7 +23,7 @@ const options = {
 const RadarChart = () => (
   <>
     <div className="header">
-      <h1 className="title">Radar Chart</h1>
+      <h4 className="title">Presenter Feedback</h4>
       <div className="links">
         <a
           className="btn btn-gh"

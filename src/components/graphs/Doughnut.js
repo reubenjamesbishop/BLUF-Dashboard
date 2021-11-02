@@ -31,7 +31,7 @@ const data = {
 const DoughnutChart = () => (
   <>
     <div className="header">
-      <h1 className="title">Doughnut Chart</h1>
+      <h4 className="title">Topic Genre Distribution</h4>
       <div className="links">
         <a
           className="btn btn-gh"

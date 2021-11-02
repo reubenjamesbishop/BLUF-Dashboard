@@ -52,7 +52,7 @@ const options = {
 const HorizontalBarChart = () => (
   <>
     <div className="header">
-      <h1 className="title">Horizontal Bar Chart</h1>
+      <h4 className="title">Presentation Scores by Department</h4>
       <div className="links">
         <a
           className="btn btn-gh"
