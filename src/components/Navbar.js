@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import './Navbar.css';
+
 function Navbar() {
   return (
     <>
@@ -27,24 +29,24 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="/">
-                Home <span class="sr-only">(current)</span>
+                Home
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Topics">
-                Topics
+                Current Topics
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="About">
-                About
+                About BLUF
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="SignUp">
-                Sign Up
+              <a class="nav-link" href="TopicGenerator">
+                Topic Generator
               </a>
             </li>
           </ul>

@@ -1,0 +1,17 @@
+.about-container {
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+}
+
+.description-wrapper {
+  /* border: 1px solid red; */
+  /* width: 80vw; */
+}
+
+.about-header {
+  /* border-bottom: 1px solid lightgray; */
+  /* width: 100%; */
+}

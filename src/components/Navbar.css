@@ -1,0 +1,9 @@
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item:hover {
+  border-bottom: 8px solid lightblue;
+  margin-bottom: -8px;
+}

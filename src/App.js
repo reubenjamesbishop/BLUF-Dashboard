@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 
 import Home from './components/pages/Home';
 import Topics from './components/pages/Topics';
+import About from './components/pages/About';
+import TopicGenerator from './components/pages/TopicGenerator';
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/Topics" exact component={Topics} />
+          <Route path="/About" exact component={About} />
+          <Route path="/TopicGenerator" exact component={TopicGenerator} />
         </Switch>
       </Router>
     </>
