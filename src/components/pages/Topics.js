@@ -7,20 +7,6 @@ import './Topics.css';
 //GET EVERYTHING IN UNCLAIMED
 // https://api.airtable.com/v0/appiGaFB2vj2iQTUP/Unclaimed?api_key=keyJJ4GrecqGEJfTq
 
-// var data = [
-//   {
-//     title: 'Hacking 101',
-//     description: 'A guide to hacking...',
-//     date: '28/9/21',
-//   },
-//   {
-//     title: 'Native Australian Birds',
-//     description:
-//       'Birds! Birds! Birds! Everything you have EVER wanted or could ever possibly want to know about our winged friends. Strap in and buckle up for this exciting rundown of our feathered brethren. ',
-//     date: '2/10/21',
-//   },
-// ];
-
 var data_response = {
   records: [
     {

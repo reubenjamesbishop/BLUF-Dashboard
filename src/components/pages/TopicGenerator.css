@@ -1,0 +1,25 @@
+.container {
+  /* border: 1px solid red; */
+  height: 80vh;
+  margin-top: 50px;
+  /* position: relative; */
+}
+
+.left {
+  /* border: 10px solid blue; */
+}
+
+.right {
+  /* border: 10px solid green; */
+  border-left: 2px solid gray;
+  background-color: light;
+}
+
+.reload-button {
+  margin: 0;
+  margin-right: 50px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

@@ -1,9 +1,37 @@
 import React from 'react';
+import './TopicGenerator.css';
+
+import Card from '../Card';
 
 function TopicGenerator() {
   return (
     <>
-      <h1>Topic Generator</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-2 left">
+            <button
+              class="btn btn-success reload-button"
+              onClick={() => {
+                window.location.reload();
+              }}
+            >
+              Generate Topics
+            </button>
+          </div>
+          <div class="col-10 right">
+            <div class="card-box">
+              <div class="row">
+                <Card image_source="https://picsum.photos/500/300?random=1" />
+                <Card image_source="https://picsum.photos/500/300?random=2" />
+              </div>
+              <div class="row">
+                <Card image_source="https://picsum.photos/500/300?random=3" />
+                <Card image_source="https://picsum.photos/500/300?random=4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
