@@ -84,6 +84,8 @@ import './Topics.css';
 //   ],
 // };
 
+this.hello = 'hello';
+
 function Topics() {
   const parseData = (data_response) => {
     // Function to take in Airtable response and return formatted object to pass to <TopicTable />
@@ -98,7 +100,7 @@ function Topics() {
       };
       return table_data;
     });
-    // console.log(formatted_data);
+
     return formatted_data;
   };
 
@@ -109,28 +111,29 @@ function Topics() {
     )
       .then((resp) => resp.json())
       .then((data) => {
-        alert('Hit db');
-        console.log(data);
-        console.log('Returning parsed data from API');
+        console.log('Response caught from DB...', data);
+        console.log('Parsed version ->', parseData(data));
         return parseData(data);
       })
       .catch((err) => {
-        alert('API thing died...');
+        alert('API call to Airtable died...');
       });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    alert('Handling submit!');
+    console.log('Handling submit!');
 
     console.log('Hitting db...');
 
     var res = hitDB();
-    console.log('Returned from hitDB()');
-    console.log(res);
 
-    return res;
+    console.log('Returned from hitDB() -->', res);
+
+    // return res;
+
+    console.log('This ->', this);
   };
 
   // var table_data = parseData(data_response);
