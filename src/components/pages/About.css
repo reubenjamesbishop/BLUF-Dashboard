@@ -6,12 +6,23 @@
   margin-top: 50px;
 }
 
-.description-wrapper {
-  /* border: 1px solid red; */
-  /* width: 80vw; */
+.about-header {
+  padding-bottom: 5px;
+  border-bottom: 5px solid lightblue;
+  margin-bottom: 25px;
 }
 
-.about-header {
-  /* border-bottom: 1px solid lightgray; */
-  /* width: 100%; */
+.about-paragraph {
+  margin-bottom: 3vh;
+}
+
+.description-wrapper {
+  margin-bottom: 50px;
+}
+
+.FAQ-header {
+  margin-top: 50px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 25px;
 }

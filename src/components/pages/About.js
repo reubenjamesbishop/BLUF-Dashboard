@@ -5,33 +5,36 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function About() {
   return (
-    <div class="about-container">
-      <h1 class="about-header">About BLUF</h1>
-      <h4>The Bottom Line Up Front</h4>
-      <blockquote class="blockquote text-center description-wrapper">
+    <div class="container about-container">
+      <h1 class="about-header">The Bottom Line Up Front</h1>
+      <blockquote class="blockquote text-center">
         <text>
-          <p class="mb-0">
-            BLUF presentations take the Bottom Line Up Front approach, where the
-            presenter uses a simple structure to concisely present a topic. This
-            presenter has little time to research and prepare and can only use a
-            whiteboard marker to assist.
-          </p>{' '}
-          BLUF presentations have a significantly larger emphasis on the
-          professional development of the presenter than the technical
-          information presented. This focuses on polishing valuable skills for
-          future professional presentations and creates a more casual atmosphere
-          to encourages audience interaction. actually sorry maybe this is
-          better
-          <p class="mb-0">
-            BLUF presentations can be used to test your presentation skills by
+          <p class="about-paragraph">
+            <strong>BLUF</strong> presentations take the Bottom Line Up Front
+            approach, where the presenter uses a simple structure to concisely
+            present a topic. This presenter has little time to research and
+            prepare and can only use a whiteboard marker to assist.
+          </p>
+          <p class="about-paragraph">
+          <strong>BLUF</strong> presentations have a significantly larger emphasis on the
+            professional development of the presenter than the technical
+            information presented. This focuses on polishing valuable skills for
+            future professional presentations and creates a more casual
+            atmosphere to encourages audience interaction. actually sorry maybe
+            this is better
+          </p>
+          <p class="about-paragraph">
+          <strong>BLUF</strong> presentations can be used to test your presentation skills by
             presenting on a topic in which you have little prior knowledge and
             limited time to prepare. 
           </p>
-          Presenting in such situations can be daunting but can quickly develop
-          your research, preparation and presentation skills. The aim is for
-          each session to be run only as fun learning exercises, with topics
-          coming from anything members are interested in.
-          <p class="mb-0">
+          <p class="about-paragraph">
+            Presenting in such situations can be daunting but can quickly
+            develop your research, preparation and presentation skills. The aim
+            is for each session to be run only as fun learning exercises, with
+            topics coming from anything members are interested in.
+          </p>
+          <p class="about-paragraph">
             Simplicity in presentation is also key and to minimise preparation
             time, each presentation is restricted to a whiteboard and marker. 
             The BLUF group aims to foster an encouraging environment where it is
@@ -43,7 +46,7 @@ function About() {
           </footer>
         </text>
       </blockquote>
-      <h1>FAQ</h1>
+      <h1 class="FAQ-header">FAQ</h1>
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
