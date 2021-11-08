@@ -31,7 +31,7 @@ function Navbar() {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="/">
-                Home
+                Statistics
               </a>
             </li>
             <li class="nav-item">

@@ -4,14 +4,13 @@ import VerticalBar from '../graphs/VerticalBar';
 import Doughnut from '../graphs/Doughnut';
 import HorizontalBar from '../graphs/HorizontalBar';
 import Radar from '../graphs/Radar';
-import './Home.css';
+import './Stats.css';
 
-function Home() {
+function Stats() {
   return (
     <>
       <div class="analytics-container">
-        <h1 class="analytics-title">Bottom Line Up Front</h1>
-        <h1 class="analytics-title-secondary">Analytics</h1>
+        <h1 class="analytics-title">Statistics &amp; Analytics</h1>
         <div class="container">
           <div class="row">
             <div class="col-6">
@@ -43,4 +42,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Stats;
