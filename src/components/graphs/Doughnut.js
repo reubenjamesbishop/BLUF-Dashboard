@@ -3,6 +3,7 @@ import { Doughnut } from 'react-chartjs-2';
 import './graphs.css';
 
 const data = {
+  // display: false,
   labels: [
     'Science & Technology',
     'Arts and Culture',
@@ -38,7 +39,7 @@ const DoughnutChart = () => (
     <div className="header">
       <h3 className="title">Presentation Genre Breakdown</h3>
     </div>
-    <Doughnut data={data} />
+    <Doughnut data={data} position="bottom" />
   </>
 );
 

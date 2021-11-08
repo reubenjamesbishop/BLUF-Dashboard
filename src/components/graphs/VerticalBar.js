@@ -44,7 +44,7 @@ const options = {
 const VerticalBar = () => (
   <>
     <div className="header">
-      <h4 className="title">Upcoming Presentationst</h4>
+      <h4 className="title">A Different Important Metric</h4>
     </div>
     <Bar data={data} options={options} />
   </>
