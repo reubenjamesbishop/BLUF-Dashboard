@@ -24,6 +24,8 @@ function Topics() {
 
     var title = e.target.topicTitle.value;
     var description = e.target.topicDescription.value;
+    var contactEmail = e.target.contactEmail.value;
+    var genre = e.target.genre.value;
 
     base('Unclaimed').create(
       [
@@ -31,7 +33,8 @@ function Topics() {
           fields: {
             Title: title,
             Description: description,
-            Date: '1/2/3',
+            Genre: genre,
+            Contact: contactEmail,
           },
         },
       ],
@@ -68,7 +71,7 @@ function Topics() {
             var table_data = {
               title: input.fields['Title'],
               description: input.fields['Description'],
-              date: input.fields['Date'],
+              genre: input.fields['Genre'],
             };
             return table_data;
           });
@@ -134,11 +137,12 @@ function Topics() {
                     class="form-control"
                     id="topicEmail"
                     placeholder="name@lmco.com"
+                    name="contactEmail"
                   />
                 </div>
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">Topic Genre</label>
-                  <select class="form-control" id="topicGenre">
+                  <select class="form-control" id="topicGenre" name="genre">
                     <option>Science and Technology</option>
                     <option>Arts and Culture</option>
                     <option>Food and Wine</option>

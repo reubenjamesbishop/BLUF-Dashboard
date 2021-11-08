@@ -7,7 +7,7 @@ function TopicTable(props) {
         <tr class="hmm">
           <th scope="row">{data.title}</th>
           <td>{data.description}</td>
-          <td>{data.date}</td>
+          <td>{data.genre}</td>
           <td>
             <button class="btn btn-outline-secondary">claim</button>
           </td>
@@ -23,7 +23,7 @@ function TopicTable(props) {
           <tr>
             <th scope="col">Title</th>
             <th scope="col">Description</th>
-            <th scope="col">Last</th>
+            <th scope="col">Genre</th>
             <th scope="col">Claim</th>
           </tr>
         </thead>
