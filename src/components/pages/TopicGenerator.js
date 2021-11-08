@@ -18,7 +18,7 @@ function TopicGenerator() {
               Generate Topics
             </button>
           </div>
-          <div class="col-10 right">
+          <div class="col-10">
             <div class="card-box">
               <div class="row">
                 <Card image_source="https://picsum.photos/500/300?random=1" />

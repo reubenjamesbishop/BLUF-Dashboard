@@ -1,0 +1,17 @@
+h1 {
+  /* margin-bottom: -px;
+  color: green; */
+}
+
+h4 {
+  margin-bottom: 20px;
+  /* color: blue; */
+}
+
+h3 {
+  /* color: red; */
+}
+
+.right {
+  border-left: 1px solid lightgray;
+}

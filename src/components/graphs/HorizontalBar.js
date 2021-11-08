@@ -1,5 +1,6 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
+import './graphs.css';
 
 const data = {
   labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -43,7 +44,7 @@ const options = {
       position: 'right',
     },
     title: {
-      display: true,
+      display: false,
       text: 'Chart.js Horizontal Bar Chart',
     },
   },
@@ -53,14 +54,6 @@ const HorizontalBarChart = () => (
   <>
     <div className="header">
       <h4 className="title">Presentation Scores by Department</h4>
-      <div className="links">
-        <a
-          className="btn btn-gh"
-          href="https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/HorizontalBar.js"
-        >
-          Github Source
-        </a>
-      </div>
     </div>
     <Bar data={data} options={options} />
   </>

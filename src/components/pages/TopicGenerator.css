@@ -5,14 +5,10 @@
   /* position: relative; */
 }
 
-.left {
-  /* border: 10px solid blue; */
-}
-
 .right {
   /* border: 10px solid green; */
-  border-left: 2px solid gray;
-  background-color: light;
+  /* border-left: 2px solid gray; */
+  /* background-color: light; */
 }
 
 .reload-button {

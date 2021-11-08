@@ -1,5 +1,6 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
+import './graphs.css';
 
 const data = {
   labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -44,14 +45,6 @@ const VerticalBar = () => (
   <>
     <div className="header">
       <h4 className="title">Upcoming Presentationst</h4>
-      <div className="links">
-        <a
-          className="btn btn-gh"
-          href="https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/VerticalBar.js"
-        >
-          Github Source
-        </a>
-      </div>
     </div>
     <Bar data={data} options={options} />
   </>

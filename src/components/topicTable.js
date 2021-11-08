@@ -4,7 +4,7 @@ function TopicTable(props) {
   if (props.data) {
     var tableContent = props.data.map(function (data) {
       return (
-        <tr class="hmm">
+        <tr class="hmmm">
           <th scope="row">{data.title}</th>
           <td>{data.description}</td>
           <td>{data.genre}</td>

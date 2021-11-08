@@ -1,5 +1,6 @@
 import React from 'react';
 import { Radar } from 'react-chartjs-2';
+import './graphs.css';
 
 const data = {
   labels: ['Thing 1', 'Thing 2', 'Thing 3', 'Thing 4', 'Thing 5', 'Thing 6'],
@@ -24,14 +25,6 @@ const RadarChart = () => (
   <>
     <div className="header">
       <h4 className="title">Presenter Feedback</h4>
-      <div className="links">
-        <a
-          className="btn btn-gh"
-          href="https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/Radar.js"
-        >
-          Github Source
-        </a>
-      </div>
     </div>
     <Radar data={data} options={options} />
   </>

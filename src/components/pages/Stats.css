@@ -1,10 +1,11 @@
-.container {
+.graph-wrapper-large {
   /* border: 1px solid blue; */
-  width: 100vw;
+  margin: 40px;
 }
+
 .graph-wrapper {
   /* border: 1px solid red; */
-  margin: 80px;
+  margin: 40px;
 }
 
 .analytics-title {
@@ -23,4 +24,8 @@
   margin: 0 auto;
   margin-top: 20px;
   padding-bottom: 5px;
+}
+
+.analytics-wrapper {
+  margin: 0 10vw 0 10vw;
 }
